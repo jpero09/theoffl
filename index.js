@@ -6,7 +6,7 @@ var app = express();
 var pkgjson = require('./package.json');
 
 var log = new Logger({
-  token:'1b531217-af39-4577-a1e1-2b10081beda7',
+  token: '1b531217-af39-4577-a1e1-2b10081beda7',
   console: true,
   timestamp: true
 });
