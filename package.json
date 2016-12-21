@@ -1,0 +1,28 @@
+{
+  "name": "theoffl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpero09/theoffl.git"
+  },
+  "keywords": [
+    "FFL"
+  ],
+  "author": "Jason Pero",
+  "bugs": {
+    "url": "https://github.com/jpero09/theoffl/issues"
+  },
+  "homepage": "https://github.com/jpero09/theoffl#readme",
+  "engines": {
+    "node": ">=6.2.1"
+  },
+  "dependencies": {
+    "express": "4.14.0"
+  }
+}
