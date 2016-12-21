@@ -18,9 +18,11 @@ app.set('host', process.env.HOST || process.env.IP || 'localhost');
 app.set('port', process.env.PORT || 3000);
 app.set('env', env);
 
-app.get('/', function (req, res) {
-  res.send('Future home of the "Ohio Fantasy Football League"!')
-});
+// views is directory for all template files
+app.set('views', `${__dirname}/views`);
+app.set('view engine', 'pug');
+
+require('./routes')(app);
 
 // Start this party:
 app.listen(app.get('port'), function() {
