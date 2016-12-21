@@ -23,6 +23,7 @@
     "node": ">=6.2.1"
   },
   "dependencies": {
-    "express": "4.14.0"
+    "express": "4.14.0",
+    "le_node": "1.7.0"
   }
 }
