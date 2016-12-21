@@ -1,6 +1,9 @@
 var express = require('express');
 var http = require('http');
 var Logger = require('le_node');
+var path = require('path');
+var serveFavicon = require('serve-favicon');
+var serveStatic = require('serve-static');
 
 var app = express();
 var pkgjson = require('./package.json');
@@ -12,11 +15,15 @@ var log = new Logger({
   timestamp: true
 });
 
+var publicPath = path.join(__dirname, './public');
+
 app.set('name', pkgjson.name);
 app.set('version', pkgjson.version);
 app.set('host', process.env.HOST || process.env.IP || 'localhost');
 app.set('port', process.env.PORT || 3000);
 app.set('env', env);
+app.use(serveFavicon(path.join(__dirname, './public/images/favicon.ico')));
+app.use(serveStatic(publicPath));
 
 // views is directory for all template files
 app.set('views', `${__dirname}/views`);
