@@ -26,10 +26,10 @@ app.use(serveFavicon(path.join(__dirname, './public/images/favicon.ico')));
 app.use(serveStatic(publicPath));
 
 // views is directory for all template files
-app.set('views', `${__dirname}/views`);
+app.set('views', `${__dirname}/app/server/views`);
 app.set('view engine', 'pug');
 
-require('./routes')(app);
+require('./app/server/routes')(app);
 
 // Start this party:
 app.listen(app.get('port'), function() {
