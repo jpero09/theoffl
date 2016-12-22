@@ -1,0 +1,34 @@
+body {
+    background-color: #e2e2e2 !important;
+
+    font-variant: small-caps;
+}
+.navbar{
+    background-color:#828688;
+    color:#FAFAFA;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #565A5C;
+    border-radius: 0px;
+    height: 103px;
+}
+.navbar-brand{
+    margin-right: 105px;
+}
+.navbar-brand img{
+    height: 105px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.media{
+    border: 1px solid #7E8489;
+    margin-bottom: 10px;
+}
+.media-body{
+        padding: 3px;
+    }
+
+.media-heading .fa{
+    margin-right: 3px;
+}

@@ -4,11 +4,11 @@ html(lang="en")
     title The OFFL
     link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css", integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi", crossorigin="anonymous")
     link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
+    link(rel="stylesheet", href="./css/main.css")
   body
-    nav.navbar.navbar-light.bg-faded
+    nav.navbar.navbar-dark
       a.navbar-brand(href='#') 
-        img(src='./images/logo.png' style='height:25px')
-        span OFFL
+        img(src='./images/logo.png', alt='OFFL')
       ul.nav.navbar-nav
         li.nav-item
           a.nav-link(href='#') Archives
@@ -30,23 +30,22 @@ html(lang="en")
             .media-body
               h4.media-heading 2016 Loser
               span Congratulations to Scott for losing the 2016 season         
-        
       .row
         .col-sm-6
             .media
-              .media-left
-                i.fa.fa-trophy
               .media-body
-                h4.media-heading 2016 Records
+                h4.media-heading 
+                  i.fa.fa-trophy
+                  span 2016 Records
                 ul
                   li Most Points: Jeff Sottile (1536pts)
                   li Most Single Game Points: John Kelly (175pts - Week 3)
         .col-sm-6
           .media
-            .media-left
-              i.fa.fa-bomb
             .media-body
-              h4.media-heading 2016 Shame
+              h4.media-heading 
+                i.fa.fa-bomb
+                span 2016 Shame
               ul
                 li Least Points: Scott Cotton (1176pts)
                 li Most Single Game Points: Patrick McFall (50pts - Playoffs Week 3)
@@ -54,10 +53,10 @@ html(lang="en")
       .row
         .col-sm-6
           .media
-            .media-left
-              i.fa.fa-diamond     
             .media-body
-              h4.media-heading Hall of Champions
+              h4.media-heading 
+                i.fa.fa-diamond  
+                span Hall of Champions
               h5 2016 - David Bordanarama
               h6 2015 - Ken Kelly
               h6 2014 - Paul Ackerman
