@@ -17,56 +17,57 @@ html(lang="en")
     .container
       .row
         .col-sm-6
-          .media
-            .media-left
-              img(src='./images/champ.jpg' height=100)      
-            .media-body
-              h4.media-heading 2016 Champ
+          .card
+            .card-header
+                span 2016 Champ
+            .card-block
+              .card-left
+                img(src='./images/champ.jpg' height=100)      
               span Congratulations to David for winning the 2016 season
         .col-sm-6
-          .media
-            .media-left
-              img(src='./images/sacko.jpg' height=100)      
-            .media-body
-              h4.media-heading 2016 Loser
+          .card
+            .card-header
+              span 2016 Loser
+            .card-block
+              .card-left
+                img(src='./images/sacko.jpg' height=100)      
               span Congratulations to Scott for losing the 2016 season         
       .row
         .col-sm-6
-            .media
-              .media-body
-                h4.media-heading 
-                  i.fa.fa-trophy
-                  span 2016 Records
+            .card
+              .card-header
+                i.fa.fa-trophy
+                span 2016 Records
+              .card-block
                 ul
                   li Most Points: Jeff Sottile (1536pts)
                   li Most Single Game Points: John Kelly (175pts - Week 3)
         .col-sm-6
-          .media
-            .media-body
-              h4.media-heading 
-                i.fa.fa-bomb
-                span 2016 Shame
+          .card
+            .card-header
+              i.fa.fa-bomb
+              span 2016 Shame
+            .card-block
               ul
                 li Least Points: Scott Cotton (1176pts)
                 li Most Single Game Points: Patrick McFall (50pts - Playoffs Week 3)
                 li Ass Kicking of the Year: J. Pero loses to P. McFall, 86-164 (78pt diff)
       .row
         .col-sm-6
-          .media
-            .media-body
-              h4.media-heading 
-                i.fa.fa-diamond  
-                span Hall of Champions
+          .card
+            .card-header 
+              i.fa.fa-diamond  
+              span Hall of Champions
+            .card-block
               h5 2016 - David Bordanarama
               h6 2015 - Ken Kelly
               h6 2014 - Paul Ackerman
               h6 2013 - Brad Huffman
               h6 2012 - Jeff Sottile
               h6 2011 - Jason Pero
-              
       
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js", integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js", integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous")
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js", integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous")  
-    script(src="node_modules/vue/dist/vue.js")
+    script(src="js/app.js")
   
