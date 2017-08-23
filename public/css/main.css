@@ -1,48 +1,51 @@
 body {
-    // background: #104357 url("../images/bg.jpg") no-repeat center center;
-	color: #FFF;
+    background: #EFEFEF;
+    color: #000;
 
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 
-	font-weight: 400;
-	
-    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 400;
+
+    font-family: Verdana;
     font-variant: small-caps;
 }
 
-.navbar{
-    height: 115px;
-    background-color: #BABABA;
-	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
-    
+.navbar {
+    height: 80px;
+    background-color: #EFEFEF;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+
     margin-bottom: 10px;
     border-bottom: 1px solid #565A5C;
     border-radius: 0;
+    padding-top: 20px;
 }
 
-.navbar-brand{
+.navbar-brand {
     margin-right: 120px;
 }
-.navbar-brand img{
-    height: 120px;
+
+.navbar-brand img {
+    height: 100px;
     position: absolute;
     top: 5px;
     left: 10px;
 }
-.nav-link{
+
+.nav-link {
     cursor: pointer;
     color: #282828 !important;
 }
 
-.card{
-    background-color: #0c3241;
-    background: rgba(0,0,0,.7);
+.card {
+    background-color: #EDEDED;
     border: 1px solid #14546d;
     border-radius: 5px;
-    box-shadow: 0 5px 5px 0 rgba(0,0,0,.35);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .35);
 }
-.card-header{
+
+.card-header {
     border-radius: 5px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -51,10 +54,20 @@ body {
     font-size: 1.2em;
     color: #fff;
 }
-.card-block{
+
+.card-block {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.card-header .fa{
+
+.card-header .fa {
     margin-right: 3px;
+}
+
+.recap-card {
+    text-align: center;
+}
+
+.recap-card img {
+    border-radius: 5px;
 }
